@@ -12,6 +12,7 @@ import java.util.Date;
 
 @WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
+    
     @Override
     protected  void doGet(HttpServletRequest request , HttpServletResponse reponse) throws ServletException, IOException {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
